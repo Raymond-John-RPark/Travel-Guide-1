@@ -2,14 +2,14 @@
   to{
     transform:translateY(-100%);
   }
-  
+
 }
 
 @keyframes hover {
   0%,100%{
     transform: scale(.6);
     color: turquoise;
-  }  
+  }
   50%{
     transform: scale(1);
     color:white;
@@ -78,9 +78,40 @@ p:nth-child(7){
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  
 }
+#landingpage nav{
+  margin: 0 auto;
+  height: 14%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav h3{
+  color: white;
+  font-family: cursive;
+  letter-spacing: 2px;
+}
+ a{
+   color: white;
+   margin:0 2px;
+   font-weight: 500;
+   font-family: sans-serif;
+   text-decoration: none;
+ }
 
+ hr{
+   border: 5px solid rgba(255, 255, 255, 0.6);
+ }
 
+ #context h1{
+   font-size: 25px;
+   font-family: fantasy;
+   text-align: center;
+ }
 
-
+ #context h2{
+   font-family: fantasy;
+   text-align: center;
+   font-size: 15px;
+ }
